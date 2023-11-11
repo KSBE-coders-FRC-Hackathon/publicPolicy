@@ -1,1 +1,10 @@
 # publicPolicy
+
+ORGANIZATION OF THE COMPETITION
+The R.I.S.E Hackathon is scheduled for Friday, November 10th, and is open to eligible individuals ("Participant", "Entrant'") who are registered to participate. Eligible participants can have a team of at most 6 people. Participants are strongly encouraged to engage in pre-competition preparations, including brainstorming and idea generation, focused on addressing the challenge of how minority students can stay protected against the impact of the Affirmative Action Policy Reversals. During the competition, participants will then make a presentation using coding software (i.e., Python) and/or data collection workbooks (i.e., Excel) to present their findings to judges for them to determine the winner of the R.I.S.E Hackathon Competition.
+Registration Form: https://forms.office.com/r/V9Xz1MwaAB
+Deadline to sign up October 27th, 2023
+OVERVIEW OF THE COMPETITION
+The Hackathon will consist of a case study that deals with the ongoing change in the college admission process involving the absence of the affirmative action policy. Affirmative action policies have played a pivotal role in addressing systemic discrimination and promoting diversity and inclusion. However, these policies have been subject to legal challenges and reversals, potentially jeopardizing the progress made in higher education. Therefore, the goal of this event is to create a unique and effective solution, using engineering principles to guide the black community toward the best direction possible of attending any collegiate institution they want.
+OBJECTIVE OF THE COMPETITION
+This competition explores the development of a comprehensive system aimed at protecting the interests and opportunities of Black communities in the event of reversals or limitations on affirmative action policies. Focusing on higher education admissions, the competition seeks to devise a strategy that ensures continued access to quality education and equal opportunities for minority communities.
