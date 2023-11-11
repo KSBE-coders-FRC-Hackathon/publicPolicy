@@ -4,16 +4,30 @@
     <title>Edu Explorer!</title>
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        .banner {
+            background-color: #007bff; /* Bootstrap primary color */
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
     <div class="container mt-5">
-        <h2 class="text-center mb-4">Welcome to the Edu Explorer!</h2>
-        <form action="/submit-form" method="post" class="border p-4 rounded">
-            
+        <!-- Banner -->
+        <div class="banner text-center mb-4">
+            <h2>Welcome to the Edu Explorer!</h2>
+        </div>
 
+        <form action="/submit-form" method="post" class="border p-4 rounded">
             <div class="form-group">
                 <label for="School">School:</label>
-                <input type="text" class="form-control" id="School" name="School" placeholder="Enter your age">
+                <input type="text" class="form-control" id="School" name="School" placeholder="Enter your school name">
+            </div>
+
+            <div class="form-group">
+                <label for="County">State:</label>
+                <input type="text" class="form-control" id="County" name="County" placeholder="Enter your state">
             </div>
             
             <div class="form-group">
