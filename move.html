@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School Statistics</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Include Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-color: #ffffff; /* White background */
+        }
+        .banner {
+            background-color: #efc940; /* Yellow background for the banner */
+            color: black;
+            padding: 20px 0;
+        }
+        .chart-container {
+            width: 60%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <!-- Banner -->
+        <div class="banner text-center mb-4">
+            <h2>Impacted Schools </h2>
+             <h3>by No Affirmative Action</h3>
+
+        </div>
+
+        <div class="chart-container">
+            <canvas id="schoolChart"></canvas>
+        </div>
+
+        <a href="index.html" class="btn btn-primary">Back to Form</a>
+    </div>
+
+    <script>
+        // Dummy data for the pie chart
+        const data = {
+            labels: [
+                'Springfield High',
+                'Shelbyville Elementary',
+                'Westbrook Prep',
+                'Springfield Elementary'
+            ],
+            datasets: [{
+                label: 'School Participation',
+                data: [12, 19, 3, 5], // Example data
+                backgroundColor: [
+                    'rgb(255, 99, 132)',
+                    'rgb(54, 162, 235)',
+                    'rgb(255, 205, 86)',
+                    'rgb(75, 192, 192)'
+                ],
+                hoverOffset: 4
+            }]
+        };
+
+        // Configuration for the pie chart
+        const config = {
+            type: 'pie',
+            data: data,
+            options: {}
+        };
+
+        // Render the pie chart
+        const schoolChart = new Chart(
+            document.getElementById('schoolChart'),
+            config
+        );
+    </script>
+      <!-- Start of ChatBot (www.chatbot.com) code -->
+      <script type="text/javascript">
+        window.__be = window.__be || {};
+        window.__be.id = "654eef7dda5c770007c7b323";
+        (function() {
+            var be = document.createElement('script'); be.type = 'text/javascript'; be.async = true;
+            be.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.chatbot.com/widget/plugin.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
+        })();
+    </script>
+    <noscript>You need to <a href="https://www.chatbot.com/help/chat-widget/enable-javascript-in-your-browser/" rel="noopener nofollow">enable JavaScript</a> in order to use the AI chatbot tool powered by <a href="https://www.chatbot.com/" rel="noopener nofollow" target="_blank">ChatBot</a></noscript>
+    <!-- End of ChatBot code -->
+
+    <!-- Optional JavaScript for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
