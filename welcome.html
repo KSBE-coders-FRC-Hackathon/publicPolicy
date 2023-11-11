@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edu Explorers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .splash-container {
+            background-color: #fff;
+            color: #0056b3;
+            height: 100%;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .splash-banner {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        .splash-banner h1 {
+            font-size: 4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .star {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: yellow;
+            clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+            animation: spin 5s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate3D(1, 1, 0, 0deg);
+            }
+            to {
+                transform: rotate3D(1, 1, 0, 360deg);
+            }
+        }
+
+        /* Position your stars absolutely within the container */
+        .star1 { top: 10%; left: 20%; }
+        .star2 { top: 20%; right: 10%; }
+        .star3 { bottom: 30%; left: 30%; }
+        .star4 { bottom: 10%; right: 25%; }
+
+        .start-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .start-button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="splash-container">
+        <div class="star star1"></div>
+        <div class="star star2"></div>
+        <div class="star star3"></div>
+        <div class="star star4"></div>
+        <div class="splash-banner">
+            <h1>Welcome to Edu Explorers!</h1>
+            <a href="index.html" class="start-button">Start</a>
+        </div>
+    </div>
+</body>
+</html>
